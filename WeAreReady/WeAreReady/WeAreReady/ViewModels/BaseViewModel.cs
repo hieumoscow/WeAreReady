@@ -103,7 +103,7 @@ namespace WeAreReady.ViewModels
 
         public void OnPropertyChanged(string propertyName)
         {
-            if (PropertyChanged == null)
+            if (PropertyChanged ==  null)
                 return;
 
             PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
